@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@theme {
+    /*Color*/
+    --color-headerFirst: #CB3A1A;
+    --color-headerSecond: #000000;
+    --color-productColor: #F8F8F8;
+    --color-pColor: #74787C;
+    --color-hsixColor: #CB3A1A;
+    --color-popularColor: #0B0A0A;
+    /*Color*/
+
+    /*padding*/
+    --spacing-headerFirstPadding: 5px; 
+    /*padding*/
+
+    /*container*/
+    --spacing-headerFirstContainer: 1140px;
+    /* container*/
+
+    /*font*/
+    --font-headerFirstFont:"Jost", sans-serif;
+    /*font*/
+
+    /*font-size*/
+    --text-headerFirstSize: 16px; 
+    /*font-size*/
+
+    /*background image*/
+    --background-image-bannerImg: url('../images/slider(1).png');
+    --background-image-bannerImg2: url('../images/menu.png');
+    --background-image-bannerImg3: url('../images/b3.png');
+    --background-image-bannercoun: url('../images/c1.png');
+    /*background image*/
+}
