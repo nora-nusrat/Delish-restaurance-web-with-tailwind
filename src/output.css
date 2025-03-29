@@ -34,6 +34,7 @@
     --background-image-bannerImg2: url('../images/menu.png');
     --background-image-bannerImg3: url('../images/b3.png');
     --background-image-bannercoun: url('../images/c1.png');
+    --background-image-bannerIteam: url('../imagesorder meal.png');
   }
 }
 @layer base {
@@ -242,8 +243,8 @@
   .top-\[-150px\] {
     top: -150px;
   }
-  .top-\[20px\] {
-    top: 20px;
+  .top-\[3611px\] {
+    top: 3611px;
   }
   .right-0 {
     right: calc(var(--spacing) * 0);
@@ -251,14 +252,11 @@
   .right-\[-142px\] {
     right: -142px;
   }
-  .right-\[0px\] {
-    right: 0px;
-  }
   .left-0 {
     left: calc(var(--spacing) * 0);
   }
-  .left-\[-100px\] {
-    left: -100px;
+  .left-\[105px\] {
+    left: 105px;
   }
   .isolate {
     isolation: isolate;
@@ -280,6 +278,9 @@
   }
   .order-none {
     order: 0;
+  }
+  .col-12 {
+    grid-column: 12;
   }
   .col-auto {
     grid-column: auto;
@@ -377,12 +378,6 @@
   .m-auto {
     margin: auto;
   }
-  .mt-\[2px\] {
-    margin-top: 2px;
-  }
-  .mt-\[5px\] {
-    margin-top: 5px;
-  }
   .mt-\[10px\] {
     margin-top: 10px;
   }
@@ -406,6 +401,9 @@
   }
   .mt-\[130px\] {
     margin-top: 130px;
+  }
+  .mb-24 {
+    margin-bottom: calc(var(--spacing) * 24);
   }
   .ml-\[-79px\] {
     margin-left: -79px;
@@ -506,6 +504,9 @@
   .h-\[26px\] {
     height: 26px;
   }
+  .h-\[100px\] {
+    height: 100px;
+  }
   .h-\[360px\] {
     height: 360px;
   }
@@ -544,6 +545,9 @@
   }
   .w-\[165\.83px\] {
     width: 165.83px;
+  }
+  .w-\[200px\] {
+    width: 200px;
   }
   .w-\[280px\] {
     width: 280px;
@@ -1261,6 +1265,9 @@
   .bg-bannerImg3 {
     background-image: var(--background-image-bannerImg3);
   }
+  .bg-bannerIteam {
+    background-image: var(--background-image-bannerIteam);
+  }
   .bg-bannercoun {
     background-image: var(--background-image-bannercoun);
   }
@@ -1444,11 +1451,11 @@
   .p-\[114px\] {
     padding: 114px;
   }
-  .p-\[117px\] {
-    padding: 117px;
-  }
   .p-\[118px\] {
     padding: 118px;
+  }
+  .p-\[250px\] {
+    padding: 250px;
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
